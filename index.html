@@ -1,57 +1,44 @@
 <!DOCTYPE html>
-
 <html>
+
 <head>
     <meta charset="utf-8">
-    <title>Практическое задание 4.9.1</title>
-    <style type="text/css">
-        header, nav {display: block;}  
-        header {
-            color: #fffff6;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            height: 140px;
-            background-color: black;
-        }
-        img {
-            padding: 5px 0px 5px 5px;
-        }
-        nav {
-            clear: both;
-            color: #fffff6;
-        }
-        nav ul {
-            margin: 0px;
-            padding: 5px 0px 5px 90px;
-        }
-        nav li {
-            display: inline;
-            margin-right: 40px;
-        }
-        a {
-           color: #fffff6;
-       }
-
-    </style>
+    <title>Моя первая веб-страница</title>
 </head>
-<body>
+
+<!-- Настройка фона страницы -->
+<body style="background: linear-gradient(135deg, #e2e2e1, #333333); height: 2000px;">
+    
+    <!-- Настройка стиля вывода header - установка размера шрифта заголовка, типа шрифта, положения текста -->
     <header>
-        <img src="images/2.jpg" height="80" align="left">
-        <h1 align="center">Практическое задание 4.9.1</h1>
-        <nav>
-            <ul align="center">
-                <li><a href="#" class="current">Главная</a></li>
-                <li><a href="pages/about.html">Обо мне</a></li>
-                <li><a href="pages/contacts.html">Контакты</a></li>
-            </ul>
-        </nav>
+        <h1 style="font-size:300%; font-family: verdana; text-align: center">Моя первая веб-страница</h1>
     </header>
-        <h2>Про меня</h2>
-        <p>Меня зовут Вася. Я работаю <strong>маркетологом</strong>. Решил получше узнать смежную профессию, чтобы разобраться как устроен веб.</p>
-        <p>Живу в Питере. Люблю кататься на велосипеде.</p>
-        <h2>Чему я хочу научиться</h2>
-        <p>На <em>этом</em> курсе я хотел бы научиться создавать сайты с нуля.</p>
-    <footer>
+        
+    <!-- Настройка стиля вывода nav - установка типа шрифта текста ссылок, положения текста -->
+    <nav style="text-align: center;">
+        <a href="#" style="font-family: verdana; color: rgb(54, 88, 190); margin-right: 50px;"><em>Главная</em></a>
+        <a href="pages/about.html" style="font-family: verdana; color: rgb(54, 88, 190); margin-right: 50px;"><em>Обо мне</em></a>
+        <a href="pages/contacts.html" style="font-family: verdana; color: rgb(54, 88, 190);"><em>Контакты</em></a>
+    </nav>
+    <hr>
+    
+    <!-- Настройка стиля вывода main - установка размера и типа шрифта, положения фото и текста -->
+    <main>
+       <p style="font-size:200%; font-family: verdana; text-align: center">
+            <img src="images/Photo.jpg" alt="Моя фотка" height="500"><br>
+            <b>Мирошниченко Артем</b><br><em style="font-size: 50%;">учебная группа PHPDEV 23</em>
+        </p>
+        <p style="font-size:150%; font-family: verdana; text-align: left"><em>Всем привет!!!<br> 
+            Меня зовут Мирошниченко Артем. Я живу в г. Ульяновске. Всю свою сознательную жизнь я служил в ВС РФ. И наконец-то вышел на пенсию.<br>
+            Не смотря на то, что я работаю, я решил пойти учиться в Skillfactory по специальности "веб-разработчик". Это направление мне очень интересно. Считаю, что любой человек должен постоянно развиваться. <strong style="color: green;">Работает мозг - работает тело.</strong><br> 
+            Надеюсь, что у меня всё получится. ;-)</em>
+        </p> 
+    </main>
+
+    <!-- Настройка стиля вывода footer - установка положения текста -->
+    <footer style="margin-top: 50px;">
         <span>&copy;&nbsp;Skillfactory</span>
     </footer>
+    
 </body>
 </html>

@@ -1,26 +1,40 @@
 <!DOCTYPE html>
-
 <html>
+
 <head>
     <meta charset="utf-8">
-    <title>Контакты - Моя первая веб-страница</title>
+    <title>Моя первая веб-страница</title>
 </head>
-<body>
+
+<!-- Настройка фона страницы -->
+<body style="background: linear-gradient(135deg, #e2e2e1, #333333); height: 2000px;">
+    
+    <!-- Настройка стиля вывода header - установка размера шрифта заголовка, типа шрифта, положения текста -->
     <header>
-        <a href="../index.html">Главная</a>
-        <a href="about.html">О нас</a>
-        <a href="#">Контакты</a>
+        <h1 style="font-size:300%; font-family: verdana; text-align: center">Моя первая веб-страница</h1>
     </header>
-    <main>
-        <h1>Как нас найти</h1>
-        <address>
-            190000, Санкт-Петербург,<br>
-            Невский проспект, д.1<br>
-            555-55-55<br>
+        
+    <!-- Настройка стиля вывода панели навигации - установка типа шрифта текста ссылок, положения текста -->
+    <nav style="text-align: center;">
+        <a href="../index.html" style="font-family: verdana; color: rgb(54, 88, 190); margin-right: 50px;"><em>Главная</em></a>
+        <a href="about.html" style="font-family: verdana; color: rgb(54, 88, 190); margin-right: 50px;"><em>Обо мне</em></a>
+        <a href="#" style="font-family: verdana; color: rgb(54, 88, 190);"><em>Контакты</em></a>
+    </nav>
+    <hr>
+    
+    <!-- Настройка стиля вывода основного текста - установка размера и типа шрифта, форматирование текста -->
+    <main style="font-family: verdana;">
+        <h1 style="font-size:200%;"><em>Контактные данные:</em></h1>
+        <address style="font-size:150%;">
+            <em>432010, г. Ульяновск,<br>
+            ул. Тельмана, д.44, кв. 75<br>
+            8-937-569-44-22</em><br>
         </address>        
     </main>
-    <footer>
-            <span>&copy;&nbsp;Skillfactory</span>
+
+    <!-- Настройка стиля вывода footer - установка положения текста -->
+    <footer style="margin-top: 50px;">
+        <span>&copy;&nbsp;Skillfactory</span>
     </footer>
 </body>
 </html>

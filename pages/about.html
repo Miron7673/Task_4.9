@@ -1,21 +1,42 @@
 <!DOCTYPE html>
-
 <html>
+
 <head>
     <meta charset="utf-8">
-    <title>О нас - Моя первая веб-страница</title>
+    <title>Моя первая веб-страница</title>
 </head>
-<body>
+
+<!-- Настройка фона страницы -->
+<body style="background: linear-gradient(135deg, #e2e2e1, #333333); height: 2000px;">
+    
+    <!-- Настройка стиля вывода header - установка размера шрифта заголовка, типа шрифта, положения текста -->
     <header>
-        <a href="../index.html">Главная</a>
-        <a href="#">О нас</a>
-        <a href="contacts.html">Контакты</a>
+        <h1 style="font-size:300%; font-family: verdana; text-align: center">Моя первая веб-страница</h1>
     </header>
-    <main>
-        <h1>О нас</h1>
-        <p>Мы лучшие в своем деле. Покупайте слонов у нас!</p>
+        
+    <!-- Настройка стиля вывода панели навигации - установка типа шрифта текста ссылок, положения текста -->
+    <nav style="text-align: center;">
+        <a href="../index.html" style="font-family: verdana; color: rgb(54, 88, 190); margin-right: 50px;"><em>Главная</em></a>
+        <a href="#" style="font-family: verdana; color: rgb(54, 88, 190); margin-right: 50px;"><em>Обо мне</em></a>
+        <a href="contacts.html" style="font-family: verdana; color: rgb(54, 88, 190);"><em>Контакты</em></a>
+    </nav>
+    <hr>
+    
+    <!-- Настройка стиля вывода основного текста - установка размера и типа шрифта, форматирование текста -->
+    <main style="font-family: verdana;">
+        <h1 style="font-size:200%;"><em>Коротко обо мне:</em></h1>
+        <ul style="font-size:150%;">
+            <li><em><b>Дата рождения</b> - 18 ноября 1976 года;</em></li>
+            <li><em><b>Место рождения</b> - г. Ульяновск;</em></li>
+            <li><em><b>Семейное положение</b> - вдовец;</em></li>
+            <li><em><b>Дети</b> - сын Илья 2000 г.р.;</em></li>
+            <li><em><b>Образование</b> - высшее, инженер по специальности "Радиоэлектронные системы", специализация - "Системы спутниковой связи" ;</em></li>
+            <li><em><b>Место работы, должность</b> - ведущий инженер ФНПЦ АО НПО;</em></li>
+            <li><em><b>Увлечения</b> - компьютеры, книги (фэнтэзи), воркаут, музыка (евро-транс, хард-рок), кошки.</em></li>
     </main>
-    <footer>
+
+   <!-- Настройка стиля вывода footer - установка положения текста -->
+   <footer style="margin-top: 50px;">
             <span>&copy;&nbsp;Skillfactory</span>
     </footer>
 </body>
